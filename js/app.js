@@ -59,7 +59,7 @@ function Insurance(make, year, level){
 //Function that Calculate for the price for the current Quotation;
 Insurance.prototype.calculateQuotation = function(insurance){
 let price;
-const base = 2000;
+const base = 1000000;
 
 //get the Make
 const make = insurance.make;
